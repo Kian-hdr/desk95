@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Desk95: your local workspace for notes, projects, and tasks."
+    />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="theme-color" content="#008080" />
+    <link rel="icon" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <title>Desk95 — Local workspace</title>
+    <script>
+      try {
+        let p = localStorage.getItem("desk95-appearance") || "system";
+        document.documentElement.dataset.theme =
+          p === "system"
+            ? matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light"
+            : p;
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

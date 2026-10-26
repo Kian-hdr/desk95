@@ -1,0 +1,18 @@
+node_modules/
+dist/
+output/
+test-results/
+playwright-report/
+.DS_Store
+native/.build/
+*.dSYM/
+
+*.tsbuildinfo
+
+# Private local verification and credentials
+*.p8
+*.p12
+.env*
+*.diagnostics.json
+AGENTS.md
+HANDOFF.md
