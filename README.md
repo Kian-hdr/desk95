@@ -2,7 +2,7 @@
 
 <p align="center">A local Windows 95 workspace for documents, projects, and tasks.</p>
 
-<p align="center"><img src="public/icon.svg" width="72" alt="Desk95 icon"></p>
+<p align="center"><img src="docs/assets/App_Icon.png" width="72" alt="Desk95 icon"></p>
 
 <h2 align="center">Download</h2>
 
