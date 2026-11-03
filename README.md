@@ -2,9 +2,15 @@
 
 A local Windows 95 workspace for documents, projects, and tasks. React + TypeScript + Tiptap + Dexie. No account, cloud backend, analytics, or external runtime assets.
 
-[![Download macOS DMG · Universal](https://img.shields.io/badge/Download%20macOS%20DMG%20%C2%B7%20Universal-24292F?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/Kian-hdr/desk95/releases/download/v1.1.0/Desk95_v1.1.0_macOS_universal.dmg) [![Install with Homebrew](https://img.shields.io/badge/Install%20with%20Homebrew-8A4B20?style=for-the-badge&logo=homebrew&logoColor=white)](#macos-app)
+## Download
 
-[Download macOS DMG](https://github.com/Kian-hdr/desk95/releases/download/v1.1.0/Desk95_v1.1.0_macOS_universal.dmg) · [Homebrew instructions](#macos-app) · [Release notes](https://github.com/Kian-hdr/desk95/releases/tag/v1.1.0)
+<p>
+<a href="https://github.com/Kian-hdr/desk95/releases/download/v1.1.0/Desk95_v1.1.0_macOS_universal.dmg"><img src="docs/assets/downloads/download_1.svg" width="240" height="48" alt="Download for macOS"></a>
+</p>
+
+[DMG · Universal · v1.1.0 · macOS 14 or later](https://github.com/Kian-hdr/desk95/releases/download/v1.1.0/Desk95_v1.1.0_macOS_universal.dmg)
+
+[Install with Homebrew](#macos-app) · [Release notes](https://github.com/Kian-hdr/desk95/releases/tag/v1.1.0)
 
 ![Desk95 with the bundled example workspace](docs/Desk95_Light.png)
 
@@ -17,6 +23,8 @@ Or install the same app with Homebrew:
 ```sh
 brew install --cask kian-hdr/tap/desk95
 ```
+
+If Homebrew asks you to trust the cask, run `brew tap kian-hdr/tap` and `brew trust --cask kian-hdr/tap/desk95`, then retry.
 
 ## Browser launch
 
