@@ -2,11 +2,21 @@
 
 A local Windows 95 workspace for documents, projects, and tasks. React + TypeScript + Tiptap + Dexie. No account, cloud backend, analytics, or external runtime assets.
 
+[![Download macOS DMG · Universal](https://img.shields.io/badge/Download%20macOS%20DMG%20%C2%B7%20Universal-24292F?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/Kian-hdr/desk95/releases/download/v1.1.0/Desk95_v1.1.0_macOS_universal.dmg) [![Install with Homebrew](https://img.shields.io/badge/Install%20with%20Homebrew-8A4B20?style=for-the-badge&logo=homebrew&logoColor=white)](#macos-app)
+
+[Download macOS DMG](https://github.com/Kian-hdr/desk95/releases/download/v1.1.0/Desk95_v1.1.0_macOS_universal.dmg) · [Homebrew instructions](#macos-app) · [Release notes](https://github.com/Kian-hdr/desk95/releases/tag/v1.1.0)
+
 ![Desk95 with the bundled example workspace](docs/Desk95_Light.png)
 
 ## macOS app
 
-Download the signed macOS app from [GitHub Releases](https://github.com/Kian-hdr/desk95/releases). It preserves this interface and font, works directly from bundled files with no server, and uses its own app-owned data store. See [macOS launch, migration, build, and distribution notes](MACOS.md). Browser and Mac changes are separate after migration.
+Open the [signed and notarized DMG](https://github.com/Kian-hdr/desk95/releases/download/v1.1.0/Desk95_v1.1.0_macOS_universal.dmg) and drag Desk95 to Applications. The universal app supports Apple silicon and Intel Macs running macOS 14 or later. It preserves this interface and font, works directly from bundled files with no server, and uses its own app-owned data store. See [macOS launch, migration, build, and distribution notes](MACOS.md). Browser and Mac changes are separate after migration.
+
+Or install the same app with Homebrew:
+
+```sh
+brew install --cask kian-hdr/tap/desk95
+```
 
 ## Browser launch
 
