@@ -25,10 +25,10 @@ Open the [signed and notarized DMG](https://github.com/Kian-hdr/desk95/releases/
 Or install the same app with Homebrew:
 
 ```sh
-brew install --cask kian-hdr/tap/desk95
+brew install --cask kian-hdr/apps/desk95
 ```
 
-If Homebrew asks you to trust the cask, run `brew tap kian-hdr/tap` and `brew trust --cask kian-hdr/tap/desk95`, then retry.
+If Homebrew asks you to trust the cask, run `brew tap kian-hdr/apps` and `brew trust --cask kian-hdr/apps/desk95`, then retry.
 
 ## Browser launch
 
