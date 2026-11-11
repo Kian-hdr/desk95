@@ -1,10 +1,13 @@
-<h1 align="center">Desk95</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/README_Wordmark_Dark.svg">
+    <img src="docs/assets/README_Wordmark_Light.svg" width="140" height="42" alt="Desk95">
+  </picture>
+</p>
 
 <p align="center">A local Windows 95 workspace for documents, projects, and tasks.</p>
 
 <p align="center"><img src="docs/assets/App_Icon.png" width="96" alt="Desk95 icon"></p>
-
-<h2 align="center">Download</h2>
 
 <p align="center">
 <a href="https://github.com/Kian-hdr/desk95/releases/download/v1.1.0/Desk95_v1.1.0_macOS_universal.dmg"><img src="docs/assets/downloads/download_1.svg" width="240" height="48" alt="Download for macOS"></a>
